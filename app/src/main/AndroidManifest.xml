@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.niren.nirenpatelsapp">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".London">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Central" />
+        <activity android:name=".West" />
+        <activity android:name=".North" />
+        <activity android:name=".East" />
+        <activity android:name=".South" />
+        <activity android:name=".CentralRandom" />
+        <activity android:name=".CentralGI" />
+        <activity android:name=".CentralLandmark" />
+        <activity
+            android:name=".EastGI"
+            android:label="@string/title_activity_east_gi"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".EastLandmark"
+            android:label="@string/title_activity_east_landmark"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".EastRandom"
+            android:label="@string/title_activity_east_random"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".NorthGI"
+            android:label="@string/title_activity_north_gi"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".NorthLandmark"
+            android:label="@string/title_activity_north_landmark"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".NorthRandom"
+            android:label="@string/title_activity_north_random"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".SouthGI"
+            android:label="@string/title_activity_south_gi"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".SouthRandom"
+            android:label="@string/title_activity_south_random"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".SouthLandmark"
+            android:label="@string/title_activity_south_landmark"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".WestGI"
+            android:label="@string/title_activity_west_gi"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".WestLandmark"
+            android:label="@string/title_activity_west_landmark"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".WestRandom"
+            android:label="@string/title_activity_west_random"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+    </application>
+
+</manifest>

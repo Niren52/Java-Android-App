@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Niren Patel\'s App</string>
+    <string name="title_activity_central_random_facts">centralRandomFacts</string>
+    <string name="title_activity_central_general_information">centralGeneralInformation</string>
+    <string name="title_activity_east_gi">EastGI</string>
+    <string name="title_activity_east_landmark">EastLandmark</string>
+    <string name="title_activity_east_random">EastRandom</string>
+    <string name="title_activity_north_gi">NorthGI</string>
+    <string name="title_activity_north_land">NorthLand</string>
+    <string name="title_activity_north_landmark">NorthLandmark</string>
+    <string name="title_activity_north_random">NorthRandom</string>
+    <string name="title_activity_south_gi">SouthGI</string>
+    <string name="title_activity_south_random">SouthRandom</string>
+    <string name="title_activity_south_landmark">SouthLandmark</string>
+    <string name="title_activity_west_gi">WestGI</string>
+    <string name="title_activity_west_landmark">WestLandmark</string>
+    <string name="title_activity_west_random">WestRandom</string>
+</resources>
